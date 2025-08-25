@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body> 
+    <form>
+        <h1>Registration Form</h1>
+        
+        <!-- Full Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <br><br> 
+
+        <!-- City -->
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="">--Select City--</option>
+            <option value="Guntur">Guntur</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
